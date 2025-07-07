@@ -19,3 +19,9 @@ A modern, responsive Car Rental website built with HTML, CSS, and JavaScript, de
 - **Frontend**: HTML, CSS, JavaScript
 
 ----
+
+## 🔗 Live Demo
+
+👉 [Click here to view the live website](https://vaishnavi-patekar.github.io/Car-Rental-Website/)
+
+---
