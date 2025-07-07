@@ -1,24 +1,4 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
-
-    /**
-     * colors
-     */
   
     --pale-purple-pantone: hsl(262, 63%, 92%);
     --medium-sea-green: hsl(152, 63%, 43%);
@@ -94,12 +74,6 @@
   
   
   
-  
-  
-  /*-----------------------------------*\
-    #RESET
-  \*-----------------------------------*/
-  
   *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -159,12 +133,6 @@
   ::-webkit-scrollbar-thumb:hover { background: hsla(219, 14%, 60%, 0.5); }
   
   
-  
-  
-  
-  /*-----------------------------------*\
-    #REUSED STYLE
-  \*-----------------------------------*/
   
   .container { padding-inline: 15px; }
   
@@ -229,13 +197,7 @@
   
   .w-100 { width: 100%; }
   
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #HEADER
-  \*-----------------------------------*/
+
   
   .header-contact { display: none; }
   
@@ -342,13 +304,7 @@
     pointer-events: all;
   }
   
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #HERO
-  \*-----------------------------------*/
+
   
   .hero { padding-top: 120px; }
   
@@ -403,12 +359,6 @@
   }
   
   
-  
-  
-  
-  /*-----------------------------------*\
-    #FEATURED CAR
-  \*-----------------------------------*/
   
   .featured-car .title-wrapper {
     display: flex;
@@ -561,12 +511,7 @@
   }
   
   
-  
-  
-  
-  /*-----------------------------------*\
-    #GET START
-  \*-----------------------------------*/
+
   
   .get-start .section-title { margin-bottom: 25px; }
   
@@ -653,12 +598,7 @@
   .get-start-card .card-link:is(:hover, :focus)::before { width: 100%; }
   
   
-  
-  
-  
-  /*-----------------------------------*\
-    #BLOG
-  \*-----------------------------------*/
+
   
   .blog .section-title { margin-bottom: 30px; }
   
@@ -750,11 +690,6 @@
   
   
   
-  
-  /*-----------------------------------*\
-    #FOOTER
-  \*-----------------------------------*/
-  
   .footer {
     background: var(--alice-blue-4);
     color: var(--independence);
@@ -829,22 +764,10 @@
   .copyright > a:is(:hover, :focus) { color: var(--carolina-blue); }
   
   
-  
-  
-  
-  /*-----------------------------------*\
-    #MEDIA QUERIES
-  \*-----------------------------------*/
-  
-  /**
-   * responsive for large than 350px screen
-   */
+
   
   @media (min-width: 350px) {
   
-    /**
-     * FEATURED CAR
-     */
   
     .featured-car-card .card-list { grid-template-columns: 1fr 1fr; }
   
@@ -857,19 +780,11 @@
   
   }
   
-  
-  
-  
-  
-  /**
-   * responsive for large than 580px screen
-   */
+
   
   @media (min-width: 580px) {
   
-    /**
-     * REUSED STYLE
-     */
+ 
   
     .container {
       max-width: 540px;
@@ -877,11 +792,7 @@
     }
   
   
-  
-    /**
-     * HEADER
-     */
-  
+
     .header-actions .btn span {
       display: block;
       font-weight: var(--fw-400);
@@ -895,40 +806,26 @@
   
   
   
-  
-  /**
-   * responsive for large than 768px screen
-   */
+
   
   @media (min-width: 768px) {
   
-    /**
-     * CUSTOM PROPERTY
-     */
+   
   
     :root {
   
-      /**
-       * typography
-       */
+    
   
       --fs-1: 2.625rem;
   
     }
   
   
-  
-    /**
-     * REUSED STYLE
-     */
-  
+
     .container { max-width: 720px; }
   
   
   
-    /**
-     * HEADER
-     */
   
     .header-actions { gap: 30px; }
   
@@ -953,9 +850,7 @@
   
   
   
-    /**
-     * HERO
-     */
+  
   
     .hero {
       position: relative;
@@ -997,25 +892,14 @@
   
   
   
-    /**
-     * FEATURED CAR
-     */
   
     .featured-car-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   
-  
-  
-    /**
-     * GET START
-     */
+ 
   
     .get-start-list { grid-template-columns: 1fr 1fr; }
   
   
-  
-    /**
-     * FOOTER
-     */
   
     .footer-brand { width: 100%; }
   
@@ -1034,35 +918,19 @@
   
   }
   
+
   
-  
-  
-  
-  /**
-   * responsive for large than 992px screen
-   */
   
   @media (min-width: 992px) {
   
-    /**
-     * REUSED STYLE
-     */
   
     .container { max-width: 960px; }
   
-  
-  
-    /**
-     * HERO
-     */
   
     .hero .container { width: 100%; }
   
   
   
-    /**
-     * BLOG
-     */
   
     .blog .has-scrollbar { padding-bottom: 50px; }
   
@@ -1070,10 +938,7 @@
   
   
   
-    /**
-     * FOOTER
-     */
-  
+ 
     .footer-list:not(:last-of-type) { width: 25%; }
   
     .footer-list:last-of-type { width: 50%; }
@@ -1083,23 +948,14 @@
   
   
   
-  
-  /**
-   * responsive for large than 1200px screen
-   */
+ 
   
   @media (min-width: 1200px) {
   
-    /**
-     * CUSTOM PROPERTY
-     */
   
     :root {
   
-      /**
-       * typography
-       */
-  
+      
       --fs-1: 2.875rem;
       --fs-2: 2rem;
   
@@ -1107,18 +963,12 @@
   
   
   
-    /**
-     * REUSED STYLE
-     */
+   
   
     .container { max-width: 1170px; }
   
   
   
-  
-    /**
-     * HEADER
-     */
   
     .overlay,
     .nav-toggle-btn { display: none; }
@@ -1138,9 +988,6 @@
   
   
   
-    /**
-     * HERO
-     */
   
     .hero { min-height: 100vh; }
   
@@ -1159,27 +1006,13 @@
       text-transform: uppercase;
     }
   
-  
-  
-    /**
-     * FEATURED CAR 
-     */
-  
+
+   
     .featured-car-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  
-  
-  
-    /**
-     * GET START
-     */
   
     .get-start-list { grid-template-columns: repeat(4, 1fr); }
   
-  
-  
-    /**
-     * BLOG
-     */
+
   
     .blog .has-scrollbar > li {
       max-width: 340px;
@@ -1187,10 +1020,6 @@
     }
   
   
-  
-    /**
-     * FOOTER
-     */
   
     .footer-brand { width: 33.33%; }
   
